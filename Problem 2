@@ -1,0 +1,7 @@
+import pandas as pd
+a=cars.loc[:5,::2]
+b=cars.ix[0]
+c=cars.loc[[23],['cyl']]
+d1=cars.loc[[1], ['Model','cyl','gear']]
+d2=cars.loc[[28], ['Model','cyl','gear']]
+d3=cars.loc[[18], ['Model','cyl','gear']]
